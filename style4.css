@@ -1,0 +1,40 @@
+.navbar{
+    height:10vh;
+    width:100vw;
+    background-color: #233142;
+    color:white;
+    font-size: 7vh;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .hero,.hero1,.hero2,.hero3 {
+    flex: 1;
+    background-color: silver; /* Greyish color */
+    margin: 0 1.5px; /* 3px gap between each hero */
+    height: 29vh; /* Set height of each hero with consideration for the gap */
+    align-items: center;
+    justify-content: center;
+  }
+  .hero{
+   position:relative;
+  }
+  .daksh{
+   position:absolute;
+   bottom:0px;
+  }
+  
+ .kyu{
+    margin-top: 10px;
+ }
+ .buses{
+    display: flex;
+    align-items: center;
+    
+ }

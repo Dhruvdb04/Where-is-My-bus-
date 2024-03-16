@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://e0.pxfuel.com/wallpapers/590/201/desktop-wallpaper-scania-interlink-coach-bus-new-black-interlink-passenger-bus-modern-buses-scania-thumbnail.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* filter: blur(5px); */
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+  background-color: grey;
+  
+  width: 60%;
+  max-width: 600px; /* Optional: Adjust max-width as needed */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+}
+
+#booking {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#rideForm {
+  width: 100%;
+}
+.hnji{
+  color:white;
+  font-weight: 500;
+}
+
+#rideForm label {
+  width: 100%;
+  max-width: 400px; /* Optional: Adjust max-width for labels */
+  text-align: left;
+}
+
+input[type="text"],
+select {
+  width: 70%;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+#map {
+  width: 100%;
+  height: 300px;
+  border: 1px solid #ccc;
+}

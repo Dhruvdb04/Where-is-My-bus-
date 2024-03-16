@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RideShare</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Where is my BUS</h1>
+    <p>Get moving with our reliable transportation services</p>
+  </header>
+  
+  <main>
+    <section id="booking">
+      <h2 id="haa">Look for a Ride</h2>
+      <form id="rideForm">
+        <label class="hnji" for="pickup">Pickup Location:</label>
+        <select id="pickup" name="pickup">
+          <option value="">Select Pickup Location</option>
+          
+          <option value="BALLABHGARH">BALLABHGARH</option>
+          <option value="Connaught Place, New Delhi">Connaught Place, New Delhi</option>
+          <option value="Red Fort, New Delhi">Red Fort, New Delhi</option>
+          <!-- Add more predefined pickup options here -->
+        </select>
+        <input type="text" id="custom_pickup" name="custom_pickup" placeholder="Enter custom pickup location">
+        
+        <label class="hnji" for="dropoff">Drop-off Location:</label>
+        <select id="dropoff" name="dropoff">
+          <option value="">Select Drop-off Location</option>
+          <option value="PALWAL">PALWAL</option>
+          <option value="New Delhi Railway Station">New Delhi Railway Station</option>
+          <option value="Gurgaon Railway Station">Gurgaon Railway Station</option>
+          <!-- Add more predefined drop-off options here -->
+        </select>
+        <input type="text" id="custom_dropoff" name="custom_dropoff" placeholder="Enter custom drop-off location">
+      </form>
+        <a href="index3.html">
+           <button type="submit">Available Rides</button>
+        </a>
+      
+    </section>
+    
+    <section id="tracking" style="display: none;">
+      <h2>Ride Tracking</h2>
+      <p>Your ride is on its way!</p>
+      <div id="map"></div>
+    </section>
+  </main>
+
+  <!-- <script src="script.js"></script> -->
+</body>
+</html>
